@@ -1,0 +1,13 @@
+{
+  "BigQuery Schema": [
+    { "name": "timestamp_gcp", "type": "TIMESTAMP", "mode": "REQUIRED" },
+    { "name": "aqi", "type": "INTEGER", "mode": "NULLABLE" },
+    { "name": "idx", "type": "INTEGER", "mode": "NULLABLE" },
+    { "name": "city", "type": "STRING", "mode": "NULLABLE" },
+    { "name": "pm25", "type": "INTEGER", "mode": "NULLABLE" },
+    { "name": "o3", "type": "INTEGER", "mode": "NULLABLE" },
+    { "name": "so2", "type": "INTEGER", "mode": "NULLABLE" },
+    { "name": "time_s", "type": "TIMESTAMP", "mode": "NULLABLE" },
+    { "name": "aqi_data", "type": "JSON", "mode": "NULLABLE" }
+  ]
+}
